@@ -1,4 +1,4 @@
-p::before{
+/*p::before{
     content:'';
     display: block;
     height: 2px;
@@ -11,4 +11,27 @@ p::after{
     height: 2px;
     width: 100%;
     background-color: black;
+}*/
+p{
+    border: 5px solid black;
+}
+div{
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+    background-color: cyan;
+    padding: 20px;
+    z-index: 1;
+}
+
+ul li{
+    display: inline;
+    margin: 50px;
+    z-index: 0;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 50%;
 }
