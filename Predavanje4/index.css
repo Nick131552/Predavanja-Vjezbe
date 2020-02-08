@@ -1,0 +1,14 @@
+p::before{
+    content:'';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+}
+p::after{
+    content:'';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
