@@ -1,0 +1,86 @@
+html {
+    font-family: sans-serif;
+}
+
+#header-pic{
+    width: 42.54vw;
+    height: 20.7vh;
+    position: fixed;
+    z-index: 100;
+}
+#navbar{
+    height: 3.97vh;
+    background-color: lightgrey;
+    position: fixed;
+    margin-top: 18.7vh;
+    z-index: 100;
+}
+#navbar > .navlink{
+    background-color: rgb(179, 179, 179);
+    display:inline-block;
+    width: 8.34vw;
+    height: 3.97vh;
+    line-height: 3.97vh;
+    text-align: center; 
+    color:black;
+    text-decoration: none;
+}
+.section1{
+    width: 28.36vw;
+    text-align: left;
+    display: inline-block;
+    padding: 1em;
+    margin:0px;
+    border: 3px solid lightgrey;
+    border-radius: 2em;
+
+}
+h3 {
+    font-size: 25px;
+    color: rgb(130, 218, 15);
+}
+
+@media only screen and (min-width: 900px) {
+    html{
+      width: 900px;
+      height: auto;
+      margin: auto;
+    }
+  }
+
+.product {
+    width: 3vw;
+    display: inline-block;
+}
+div > h4{
+    display: inline-block;
+}
+div > p{
+    margin-left:3vw;
+}
+#blog{
+    width: 8vw;
+    transform: translate(0vw, 12.5vh);
+    text-align: left;
+    display: inline-block;
+    padding: 1em;
+    margin:10px;
+    border: 3px solid lightgrey;
+    border-radius: 2em;
+}
+#contact{
+    width: 8vw;
+    transform: translate(0vw, -23.5vh);
+    text-align: left;
+    display: inline-block;
+    padding: 1em;
+    margin:10px;
+    border: 3px solid lightgrey;
+    border-radius: 2em;
+}
+footer {
+    text-align: center;
+    background-color: rgb(130, 218, 15);
+    height:8vh;
+    line-height: 8vh;
+}
