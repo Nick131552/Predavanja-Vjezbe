@@ -190,6 +190,38 @@ footer #div5 form{
 
 /* Responsive */
 
+
+  @media only screen and (min-width: 500px) and (max-width: 1023px) {
+    /* For tablet: */
+
+/* Div, Header and Footer*/
+header,footer,#aboutUs{
+    padding: 0vh 12vw 0vh 12vw;
+}
+
+nav{
+    margin-bottom: 15vh;
+}
+
+/* About Us */
+
+#aboutUs img{
+    width: 35vw;
+    height: 50vw;
+    margin-bottom: 32vh;
+}
+#aboutUs p{
+    width: 30vw;
+    margin-bottom: 6vh;
+}
+
+
+/* Footer */
+footer{
+    height: 50vh;
+}
+  }
+
   @media only screen and (min-width: 1024px) {
     /* For Laptop: */
     
