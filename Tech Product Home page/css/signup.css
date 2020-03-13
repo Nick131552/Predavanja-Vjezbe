@@ -1,0 +1,255 @@
+/* Universal colors, font sizes, sont families*/
+
+body{
+    margin:0;
+    padding: 0;
+
+    background: rgb(243, 243, 243);
+}
+nav{
+    color: rgb(83, 77, 77);
+    font-family: Lato;
+}
+p, div{
+    color: rgb(83, 77, 77);
+    font-family: Lato;
+    font-size: 2vh;
+}
+h2{
+    color: rgb(90, 84, 84);
+    font-family: Roboto;
+    font-size: 4vh;
+}
+h3{
+    color: rgb(90, 84, 84);
+    font-family: Roboto;
+    font-size: 3vh;
+}
+h5{
+    color: rgb(90, 84, 84);
+    font-family: Roboto;
+    font-size: 2vh;
+}
+a{
+    display:inline-block;
+
+    color: rgb(83, 77, 77);
+    font-family: Lato;
+    font-size: 2vh;
+    text-decoration: none;
+}
+li{
+    color: rgb(83, 77, 77);
+    font-family: Lato; 
+    font-size: 2.1vh;
+    list-style: none;
+
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Divs,Header and Footer*/
+
+/* Header */
+header{
+    height: 80vh;
+    margin-top: 0;
+
+    background: white;
+}
+header a{
+    margin: 1vw 0.5vw 0vw 0.5vw;
+}
+header nav img{
+    width: 2vw;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    height: 40vh;
+}
+header div #Logitech{
+    margin-top: 5vh;
+}
+header div>img{
+    width: 34vw;
+}
+
+
+/* Form */
+#FORM{
+    height: 90vh;
+    margin: 2vh 0vw 8vh 0vw;
+
+    text-align: center;
+}
+#FORM li{
+    width: 80vw;
+    height: 80vh;
+    margin-left: 6vw;
+}
+#FORM form input[type="text"]{
+    width: 35vw;
+    height: 6vh;
+    margin: 0vh 2vw 6vh 2vw;
+    border-radius: 5px;
+
+    font-size: 3vh;
+}
+#FORM form input[type="email"], #FORM form input[type="password"]{
+    width: 74.5vw;
+    height: 6vh;
+    margin: 0vh 2vw 6vh 2vw;
+    border-radius: 5px;
+
+    font-size: 3vh;
+}
+#FORM form input[type="checkbox"]{
+    margin-left: -55vw;
+    border-radius: 5px;
+}
+#FORM form input::placeholder{
+    font-size: 3vh;
+}
+#FORM button{
+    float: left;
+    margin: 6vh 0 0 2vw;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+
+    padding-left: 15vw;
+
+    background: white;
+}
+footer div{
+    width: 10vw;
+    margin: 0vh 1vw 0vh 1vw;
+
+    flex-grow: 1;
+}
+footer div>img{
+    width: 1vw;
+    margin-right: 0.5vw;
+}
+footer div>a{
+    margin: 2vh 0.5vw 2vh 0.5vw;
+}
+footer #div1{
+    width: 18vw;
+}
+footer #div5{
+    width: 16vw;
+}
+footer #div5>p{
+    margin-top: 21vh;
+}
+footer #div5 input[type="email"]{
+    width: 10vw;
+    height:6vh;
+
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+footer #div5 button{
+    width: 6vh;
+    height: 7vh;
+    margin-left:-0.23vw;
+    
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    background-color: rgb(61, 55, 241);
+    transition: background-color 0.5s;
+}
+footer #div5 button:hover{
+    background-color: rgb(31, 25, 211);
+    transition: background-color 0.5s;
+}
+footer #div5 img{
+    width: 1.5vw;
+    margin-top: 0vh;
+}
+footer #div5 form{
+    padding-top: 3vh;
+}
+
+/* Classes*/
+
+.button{
+    width: 10em;
+    height: 2em;
+    margin-bottom: 1vh;
+
+    border: lightgrey 1px solid;
+    border-radius: 12px;
+
+    color: rgb(61, 55, 241);
+    background: white;
+
+    text-align: center;
+    line-height: 2em;
+
+    transition: background-image 0.5s, color 0.5s;
+}
+.button:hover{
+    background-image: linear-gradient(to right, rgb(61, 55, 241),
+        rgb(123, 119, 240));
+    color: white;
+}
+
+
+.purpleText{
+    color: rgb(61, 55, 241);
+}
+
+
+.purpleTextLink{
+    color: rgb(83, 77, 77);
+    transition: color 0.5s;
+}
+.purpleTextLink:hover{
+    color: rgb(61, 55, 241);
+    transition: color 0.5s;
+}
+
+
+/* Responsive */
+
+  @media only screen and (min-width: 1024px) {
+    /* For Laptop: */
+    
+    /* Div, Header and Footer*/
+    header,footer{
+        padding: 0vh 16vw 0vh 16vw;
+    }
+    nav{
+        margin:0 0 15vh 6vw;
+    }
+
+    
+    /* Form */
+    #FORM{
+        height: 90vh;
+    }
+    #FORM li{
+        height: 80vh;
+        margin-left: 6vw;
+    }
+    #FORM form input[type="checkbox"]{
+        margin-left: -55vw;
+    }
+
+    
+    /* Footer */
+    footer{
+        height: 40vh;
+    }
+  }
