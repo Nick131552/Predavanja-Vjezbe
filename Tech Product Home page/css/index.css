@@ -448,7 +448,7 @@ footer #div5 form{
 
 /* Responsive */
 
-@media only screen and (max-width: 499px) and (min-width: 320px){
+    @media only screen and (max-width: 499px) and (min-width: 320px){
     /* For Phones */
     
     /* Div, Header and Footer */
@@ -646,7 +646,7 @@ footer #div5 form{
     }
   }
 
-@media only screen and (min-width: 500px) and (max-width: 1023px) {
+  @media only screen and (min-width: 500px) and (max-width: 1023px) {
     /* For tablet: */
 
 /* Div, Header and Footer*/
@@ -733,7 +733,7 @@ footer{
 }
   }
 
-@media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     /* For Laptop: */
     
     /* Div, Header and Footer*/
