@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 39" width="54" height="39">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1488 -7058L432 -7058L432 840L-1488 840Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M0 1L54.56 1L54.56 38.89L0 38.89L0 1Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #4a4e48 } 
+	</style>
+	<g id="Home Page" clip-path="url(#cp1)">
+		<g id="Review">
+			<g id="Right" style="opacity: 0.271">
+				<g id="Group 2">
+					<g id="Group 1" clip-path="url(#cp2)">
+						<path id="Path 1" class="shp0" d="M35.71 1.56C34.99 0.81 33.79 0.81 33.04 1.56C32.32 2.28 32.32 3.48 33.04 4.21L46.59 17.76L1.88 17.76C0.83 17.76 0 18.59 0 19.63C0 20.67 0.83 21.53 1.88 21.53L46.59 21.53L33.04 35.05C32.32 35.8 32.32 37.01 33.04 37.72C33.79 38.47 34.99 38.47 35.71 37.72L52.47 20.97C53.22 20.24 53.22 19.04 52.47 18.33L35.71 1.56Z" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
