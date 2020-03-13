@@ -448,6 +448,204 @@ footer #div5 form{
 
 /* Responsive */
 
+@media only screen and (max-width: 499px) and (min-width: 320px){
+    /* For Phones */
+    
+    /* Div, Header and Footer */
+    #service,#experience,#video-conference,#logos,#products,#business,#review,header,footer{
+        padding: 0vh 0vw 0vh 0vw;
+    }
+
+
+    /* Header */
+    header div{
+        height: 80vh;
+        align-items: center;
+    }
+    header div>img{
+        width: 60vw;
+    }
+    nav{
+        margin:0 0 2vh 0vw;
+        text-align: center;
+
+        font-size: 2vh;
+    }
+    header nav img{
+        width: 4vw;
+    }
+
+
+    /* Service*/
+    #service{
+        height: 160vh
+    }
+    #service>p{
+        padding: 0 10vw 0 10vw;
+    }
+    
+    #service ul{
+        padding:0 6vw 0 6vw;
+    }
+    #service li{
+        width: 38vw;
+        height:40vh;
+    }
+    #service li>img{
+        width: 10vw;
+        height: 10vw;
+        margin-top: 3vh;
+    }
+
+
+    /* Video Conference */
+    #video-conference{
+        height: 200vw;
+        padding-left: 12vw;
+    }
+    #video-conference img{
+        width: 80vw;
+        height: 80vw;
+        margin-bottom: 0;
+    }
+    #video-conference p, #video-conference h3{
+        width: 80vw;
+    }
+
+    /* Experience */
+    #experience{
+        height: 120vh;
+    }
+    #experience li{
+        width: 40vw;
+        height: 45vh;
+        padding-left: 1vw;
+    }
+    #experience li>img{
+        width: 20vw;
+        height: 20vw;
+        margin-left: 12vw;
+        float: none;
+    }
+
+
+    /* Products */
+    #products ul{
+        width: 69vw;
+    }
+    #products li{
+        width: 32vw;
+        height: 38vh;
+    }
+    #products li>img{
+        width: 18vw;
+        height: 18vw;
+    }
+    #products div{
+        width: 17vw;
+        margin-left: 1vw;;
+    }
+
+
+    /* Logos */
+    #logos{
+        height: 10vh;
+    }
+
+
+    /* Business */
+    #business{
+        margin-left: 5vw;
+    }
+    #business div:first-of-type{
+        width: 40vw;
+        height: 60vh;
+        margin: 1vh 1vw 1vh 1vw;
+    }
+    #business #div2{
+        margin: 1vh 1vw 1vh 1vw;
+    }
+    #business div{
+        width: 40vw;
+        height: 60vh;
+    }
+    #business li{
+        height: 10vh;
+        line-height: 5vh;
+    }
+    #business li img{
+        width: 3vw;
+        height: 3vw;
+    }
+    #business div>img{
+        width: 40vw;
+    }
+
+
+    /* Review */
+    #review{
+        height: 80vh;
+    }
+
+
+    #review #Icon1{
+        width: 10vw;
+        height: 10vw;
+    }
+    #review #Icon2{
+        width: 14vw;
+        height: 14vw;
+    }
+    #review #Icon3{
+        width: 18vw;
+        height: 18vw;
+    }
+    #review #Icon4{
+        width: 14vw;
+        height: 14vw;
+    }
+    #review #Icon5{
+        width: 10vw;
+        height: 10vw;
+    }
+
+    
+    #review li{
+        width: 60vw;
+        height: 46vw;
+    }
+    #review li img{
+        width: 20vw;
+    }
+    #review div:first-of-type{
+        margin-left: 12vw;
+    }
+    #review div:last-of-type{
+        margin: 10vh 0vw 0vh 9vw;
+    }
+    #review a>img{
+        width: 8vw;
+        height: 8vw;
+    }
+
+
+    /* Footer */
+    footer{
+        height: 60vh;
+    }
+    footer div img{
+        width: 2vw;
+        height: 2vw;
+    }
+    footer #div5 img{
+        width: 4vw;
+        height: 4vw;
+    }
+    footer #div5 input::placeholder{
+        font-size: 0px;
+    }
+  }
+
 @media only screen and (min-width: 500px) and (max-width: 1023px) {
     /* For tablet: */
 
