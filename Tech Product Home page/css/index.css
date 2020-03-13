@@ -448,6 +448,93 @@ footer #div5 form{
 
 /* Responsive */
 
+@media only screen and (min-width: 500px) and (max-width: 1023px) {
+    /* For tablet: */
+
+/* Div, Header and Footer*/
+#service,#experience,#video-conference,#logos,#products,#business,#review,header,footer{
+    padding: 0vh 12vw 0vh 12vw;
+}
+
+nav{
+    margin-bottom: 15vh;
+}
+
+
+/* Service */
+#service li{
+    width:24vw;
+    height:38vh;
+}
+
+#service ul{
+    padding:0;;
+}
+
+
+/* Video Conference */
+#video-conference{
+    height: 60vh;
+}
+
+#video-conference p{
+    width: 40vw;
+    margin-top: 6vh;
+}
+#video-conference h3{
+    width: 40vw;
+    margin-top: 12vh;
+}
+
+
+/* Products */
+#products li{
+    width: 24vw;
+    height: 36vh;
+}
+#products ul{
+    width: 55vw;
+}
+
+
+/* Logos */
+#logos{
+    height: 20vh;
+}
+
+
+/* Business */
+#business div{
+    width: 24vw;
+    height: 58vh;
+}
+#business li{
+    font-size: 1.6vh;
+}
+#business div>img{
+    width: 24vw;
+}
+
+
+/* Review*/
+#review div:first-of-type{
+    margin-left: 24vw;
+}
+#review div:last-of-type{
+    margin: 10vh 0vw 0vh 12vw;
+}
+#review a>img{
+    width: 3vw;
+    height: 3vw;
+}
+
+
+/* Footer */
+footer{
+    height: 50vh;
+}
+  }
+
 @media only screen and (min-width: 1024px) {
     /* For Laptop: */
     
