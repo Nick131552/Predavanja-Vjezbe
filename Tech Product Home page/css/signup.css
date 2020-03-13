@@ -223,6 +223,37 @@ footer #div5 form{
 
 /* Responsive */
 
+  @media only screen and (min-width: 500px) and (max-width: 1023px) {
+    /* For tablet: */
+
+/* Div, Header and Footer*/
+header,footer{
+    padding: 0vh 12vw 0vh 12vw;
+}
+
+nav{
+    margin-bottom: 15vh;
+}
+
+
+/* Form */
+#FORM{
+    height: 100vh;
+}
+#FORM li{
+    height: 90vh;
+    margin-left: 4vw;
+}
+#FORM form input[type="checkbox"]{
+    margin-left: -30vw;
+}
+
+/* Footer */
+footer{
+    height: 50vh;
+}
+  }
+
   @media only screen and (min-width: 1024px) {
     /* For Laptop: */
     
